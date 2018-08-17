@@ -33,4 +33,25 @@ Gitコマンドかるた付属の学習ガイドブックにて、使用例通�
 12. `git commit -m "first commit"` を実行。
 13. `git push -u origin master` でリモートにプッシュ。
 
-# git-guide-book
+## 花の色を赤色から黄色に変更
+1. `git pull` を実行。作業前に必ず実行するとよい。
+2. 花の色を赤色から黄色に変更。
+3. `git diff` を実行。  
+    実行結果：  
+    ```
+    diff --git a/sample-textfile.txt b/sample-textfile.txt
+    index 03f66a3..0489818 100644
+    --- a/sample-textfile.txt
+    +++ b/sample-textfile.txt
+    @@ -1,7 +1,7 @@
+    お花を貼る {
+      設置場所: 教室の東から4番目の窓
+      種類: チューリップ
+    -  花びら: 赤
+    +  花びら: 黄
+    :
+    ```
+4. `Ctrl + C` で抜ける
+5. `git add README.md`
+
+
