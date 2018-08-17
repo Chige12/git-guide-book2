@@ -11,7 +11,7 @@ Gitコマンドかるた付属の学習ガイドブックにて、使用例通�
 3. テキストファイル「sample-textfile.txt」を作成し、記述。
 4. 説明書ファイル「README.md」を作成し、記述。（この文章を記述）
 5. GitHubへアクセスし、New repository のボタンをクリック。
-6. 入力欄にリポジトリ名 `git-guide-book` を入力してリポジトリを作成する。
+6. 入力欄にリポジトリ名 `git-guide-book` を入力し、「Create repository」ボタンでリポジトリを作成する。
 7. コンソールに戻り、 `git init` を実行。  
     実行結果： `Initialized empty Git repository in C:/Users/***/Desktop/git-guide-book/.git/`
 8. リモートと紐づけ ` git remote add origin https://github.com/Chige12/git-guide-book.git` 
