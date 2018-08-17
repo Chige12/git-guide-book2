@@ -17,7 +17,7 @@ Gitコマンドかるた付属の学習ガイドブックにて、使用例通�
 8. リモートと紐づけ `git remote add origin https//github.com/Chige12/git-guide-book.git` 
 9. `git add README.md ` を実行。
 10. `git add sample-textfile.txt ` を実行。
-11. `git status` を実行
+11. `git status` でコミットされるファイルを確認。
     実行結果：
     ```
     On branch master
@@ -30,4 +30,6 @@ Gitコマンドかるた付属の学習ガイドブックにて、使用例通�
             new file:   README.md
             new file:   sample-textfile.txt
     ```
+12. `git commit -m "first commit"` を実行。
+13. `git push -u origin master` でリモートにプッシュ。
 
